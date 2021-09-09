@@ -11,7 +11,7 @@ const throttle = (options = {}, ...args) => {
     func = options.func
     wait = options.wait || 300
     isFast = options.isFast || false
-    if (typeof options.func !== 'object') {
+    if (typeof options.func !== 'function') {
       throw new Error(`params <options.func> mast be a function`)
     }
   }
