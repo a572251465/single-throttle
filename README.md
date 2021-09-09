@@ -3,7 +3,7 @@
 ----- Reasons for choosing single throttle -----
 1. single-xxx series plugin each plugin does only one thing
 2. the plugin size is less than 1k
-3. Provides a merge policy for multiple objects
+3. Parameter penetration can be performed
 4. High configuration policy
 
 ## options
